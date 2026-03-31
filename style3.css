@@ -1,0 +1,118 @@
+body {
+	background-color: black;
+ 	margin: auto;
+ 	text-align: center;
+ 	color: whitesmoke;
+}
+
+#homebutton {
+	border-style: none;
+	height: 100px;
+	float: left;
+	margin: 25px 30px 0px 30px;
+}
+
+#heroscreen{
+	width: 100%;
+}
+
+.product{
+	width: 90%;
+	background-color: #E7A3C8;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+}
+
+.centercontent {
+	height: 100%;
+	width: 1000px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+.threecol {
+	width: 300px;
+	margin-left: 13px;
+	margin-right: 13px;
+	margin-top: 13px;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+	background-color: #AFAED7;
+}
+
+.description {
+	margin-left: -50px;
+	margin-right: -50px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+li {
+	float: left;
+	padding: 30px;
+}
+
+h1{
+	margin: -10px;
+	margin-top: 30px;
+	font-family: "cy", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #AFAED7;
+}
+
+h2{
+	font-family: "cy", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #5C315D;
+}
+
+h3{
+	font-family: sans-serif;
+	color: #5C315D;
+}
+
+footer{
+	float: left;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 330px;
+	padding-left: 300px;
+	padding-right: 300px;
+	color: #5C315D;
+	background-color: #AFAED7;
+	font-family: sans-serif;
+}
+
+li a {
+	display: block;
+	color: whitesmoke;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-style: solid;
+	border-color: whitesmoke;
+	font-family: monospace;
+}
+
+li a:hover {
+	background-color: whitesmoke;
+	color: black;
+	border-style: solid;
+	border-color: black;
+}
+
+li a:active {
+	background-color: #dddddd;
+	color: black;
+	border-style: solid;
+	border-color: #dddddd;
+}
